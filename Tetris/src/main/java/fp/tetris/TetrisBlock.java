@@ -12,10 +12,13 @@ public class TetrisBlock
   {
      this.shape = shape;
      this.color = color;
-     
-     x = 3;
-     y = 2;
   }
+  
+  public void spawn(int gridWidth)
+  {
+      y = -getHeight();
+      x = (gridWidth - getWidth()) / 2;  
+  }        
   
   public int [][] getShape(){ return shape; }
   
@@ -28,4 +31,13 @@ public class TetrisBlock
   public int getX(){ return x; }
   
   public int getY(){ return y; }
+  
+  public void moveDown(){ y++; }
+  
+  public void moveLeft(){ x--; }
+  
+  public void moveRight(){ x++; }
+  
+  public int getBottomEdge(){ return y + getHeight(); }
+  
 }
