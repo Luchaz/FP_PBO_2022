@@ -17,15 +17,17 @@ public class GameThread extends Thread
    {
        while(true)
        {
+           ga.spawnBlock();
            
-            try{
-               ga.moveBlockDown();
-           
-               Thread.sleep(1000);
-            }
-            catch (InterruptedException ex) {
-                Logger.getLogger(GameThread.class.getName()).log(Level.SEVERE, null, ex); 
-            }
+           while( ga.moveBlockDown() )
+           {    
+               try{
+                  Thread.sleep(1000);
+                }
+                catch (InterruptedException ex) {
+                    Logger.getLogger(GameThread.class.getName()).log(Level.SEVERE, null, ex);
+                }
+           }
         }
     }        
 }
