@@ -1,4 +1,4 @@
-package fp.tetris;
+package tetris;
 
 public class Tetris 
 {

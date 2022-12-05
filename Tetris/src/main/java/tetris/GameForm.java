@@ -1,4 +1,4 @@
-package fp.tetris;
+package tetris;
 
 import java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;

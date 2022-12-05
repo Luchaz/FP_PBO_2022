@@ -1,5 +1,12 @@
-C:\Users\ThinkBook\FP_PBO_2022\Tetris\src\main\java\fp\tetris\GameForm.java
-C:\Users\ThinkBook\FP_PBO_2022\Tetris\src\main\java\fp\tetris\TetrisBlock.java
-C:\Users\ThinkBook\FP_PBO_2022\Tetris\src\main\java\fp\tetris\GameArea.java
-C:\Users\ThinkBook\FP_PBO_2022\Tetris\src\main\java\fp\tetris\Tetris.java
-C:\Users\ThinkBook\FP_PBO_2022\Tetris\src\main\java\fp\tetris\GameThread.java
+C:\Users\ThinkBook\FP_PBO_2022\Tetris\src\main\java\tetrisblocks\TShape.java
+C:\Users\ThinkBook\FP_PBO_2022\Tetris\src\main\java\tetris\Tetris.java
+C:\Users\ThinkBook\FP_PBO_2022\Tetris\src\main\java\tetrisblocks\LShape.java
+C:\Users\ThinkBook\FP_PBO_2022\Tetris\src\main\java\tetrisblocks\SShape.java
+C:\Users\ThinkBook\FP_PBO_2022\Tetris\src\main\java\tetris\GameThread.java
+C:\Users\ThinkBook\FP_PBO_2022\Tetris\src\main\java\tetrisblocks\JShape.java
+C:\Users\ThinkBook\FP_PBO_2022\Tetris\src\main\java\tetris\GameForm.java
+C:\Users\ThinkBook\FP_PBO_2022\Tetris\src\main\java\tetrisblocks\OShape.java
+C:\Users\ThinkBook\FP_PBO_2022\Tetris\src\main\java\tetris\GameArea.java
+C:\Users\ThinkBook\FP_PBO_2022\Tetris\src\main\java\tetris\TetrisBlock.java
+C:\Users\ThinkBook\FP_PBO_2022\Tetris\src\main\java\tetrisblocks\IShape.java
+C:\Users\ThinkBook\FP_PBO_2022\Tetris\src\main\java\tetrisblocks\ZShape.java
