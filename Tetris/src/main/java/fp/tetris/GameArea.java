@@ -1,4 +1,4 @@
-package tetris;
+package fp.tetris;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -19,7 +19,7 @@ public class GameArea extends JPanel
             
     public GameArea(JPanel placeholder, int columns)
     {
-        placeholder.setVisible(false);
+       // placeholder.setVisible(false);
         this.setBounds(placeholder.getBounds() );
         this.setBackground(placeholder.getBackground());
         this.setBorder(placeholder.getBorder());
@@ -27,9 +27,7 @@ public class GameArea extends JPanel
         gridColumns = columns;
         gridCellSize = this.getBounds().width / gridColumns;
         gridRows = this.getBounds().height / gridCellSize;
-        
-        background = new Color[gridRows][gridColumns];
-        
+    
         blocks = new TetrisBlock[]{ new IShape(),
                                     new JShape(), 
                                     new LShape(), 
@@ -37,6 +35,11 @@ public class GameArea extends JPanel
                                     new SShape(), 
                                     new TShape(), 
                                     new ZShape() }; 
+    }
+    
+    public void initBackgroundArray()
+    {
+        background = new Color[gridRows][gridColumns];
     }
     
     public void spawnBlock()

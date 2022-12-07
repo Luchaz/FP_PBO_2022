@@ -1,4 +1,4 @@
-package tetris;
+package fp.tetris;
 
 import java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
@@ -10,6 +10,7 @@ import javax.swing.KeyStroke;
 public class GameForm extends JFrame 
 {
     private GameArea ga;
+    private GameThread gt;
  
     public GameForm() 
     {
@@ -19,8 +20,6 @@ public class GameForm extends JFrame
         this.add( ga );
         
         initControls();
-        
-        startGame();
     }
     
     private void initControls()
@@ -61,7 +60,9 @@ public class GameForm extends JFrame
     
     public void startGame()
     {
-        new GameThread(ga, this).start();
+        ga.initBackgroundArray();
+        gt = new GameThread(ga, this);
+        gt.start();
     }  
     
     public void updateScore(int score)
@@ -82,6 +83,7 @@ public class GameForm extends JFrame
         gameAreaPlaceholder = new javax.swing.JPanel();
         scoreDisplay = new javax.swing.JLabel();
         levelDisplay = new javax.swing.JLabel();
+        btnMainMenu = new javax.swing.JButton();
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -116,12 +118,22 @@ public class GameForm extends JFrame
         levelDisplay.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         levelDisplay.setText("Level: 1");
 
+        btnMainMenu.setText("Main Menu");
+        btnMainMenu.setFocusable(false);
+        btnMainMenu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnMainMenuActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(158, Short.MAX_VALUE)
+                .addContainerGap(17, Short.MAX_VALUE)
+                .addComponent(btnMainMenu, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addComponent(gameAreaPlaceholder, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -133,16 +145,28 @@ public class GameForm extends JFrame
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(gameAreaPlaceholder, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(scoreDisplay)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(levelDisplay)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(scoreDisplay)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(levelDisplay))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(14, 14, 14)
+                        .addComponent(btnMainMenu)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnMainMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMainMenuActionPerformed
+        
+        gt.interrupt();        this.setVisible(false);
+        Tetris.showStartup();
+        
+    }//GEN-LAST:event_btnMainMenuActionPerformed
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -178,6 +202,7 @@ public class GameForm extends JFrame
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnMainMenu;
     private javax.swing.JPanel gameAreaPlaceholder;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel levelDisplay;

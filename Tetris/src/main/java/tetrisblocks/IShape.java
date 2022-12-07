@@ -1,7 +1,7 @@
 package tetrisblocks;
 
 import java.util.HashSet;
-import tetris.TetrisBlock;
+import fp.tetris.TetrisBlock;
 
 public class IShape extends TetrisBlock
 {

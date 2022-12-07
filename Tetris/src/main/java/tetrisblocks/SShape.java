@@ -1,6 +1,6 @@
 package tetrisblocks;
 
-import tetris.TetrisBlock;
+import fp.tetris.TetrisBlock;
 
 public class SShape extends TetrisBlock 
 {

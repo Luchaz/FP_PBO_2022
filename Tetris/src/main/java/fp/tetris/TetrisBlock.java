@@ -1,4 +1,4 @@
-package tetris;
+package fp.tetris;
 
 import java.awt.Color;
 import java.util.Random;
