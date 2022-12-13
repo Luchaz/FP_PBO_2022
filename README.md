@@ -19,7 +19,7 @@ Link Rekaman : https://youtu.be/b4sQ7hBiTTE<br>
 </p>
 ✅ <b>Casting/Conversion</b><br>
     Line 267-277 <br>
-    GameArea.java<br>
+    (Tetris/src/main/java/fp/tetris/GameArea.java)<br>
     
   ```
   public void moveBlockToBackground()
@@ -48,7 +48,7 @@ Link Rekaman : https://youtu.be/b4sQ7hBiTTE<br>
 
 ✅ <b>Constructor</b><br>
 Line 119-124 <br> 
-GameArea.java<br>
+(Tetris/src/main/java/fp/tetris/GameArea.java)<br>
 
 ```
 private boolean checkBottom()
@@ -61,7 +61,7 @@ private boolean checkBottom()
  
 ✅ <b>Overloading</b><br>
 Line 6-21 <br>
-TetrisBlock.java<br>
+(Tetris/src/main/java/fp/tetris/TetrisBlock.java)<br>
 
 ```
 public class TetrisBlock 
@@ -84,7 +84,7 @@ public class TetrisBlock
   
 ✅ <b>Overriding</b><br>
 Line 6-21<br> 
-TetrisBlock.java<br>
+(Tetris/src/main/java/fp/tetris/TetrisBlock.java)<br>
 
 ```
 public class TetrisBlock 
@@ -107,7 +107,7 @@ public class TetrisBlock
 
 ✅ <b>Encapsulation</b><br>
 Line 59, Line 61<br> 
-TetrisBlock.java<br>
+(Tetris/src/main/java/fp/tetris/TetrisBlock.java)<br>
 
 ```
 public int [][] getShape(){ return shape; }
@@ -118,7 +118,7 @@ public Color getColor(){ return color; }
 
 ✅ <b>Inheritance</b><br>
 Line 6<br> 
-GameThread.java<br>
+(Tetris/src/main/java/fp/tetris/GameThread.java)<br>
 
 ```
 public class GameThread extends Thread
@@ -126,7 +126,7 @@ public class GameThread extends Thread
 
 ✅<b>Polymorphism</b><br>
 Line 6<br>
-IShape.java<br>
+(Tetris/src/main/java/tetrisblocks/IShape.java)<br>
 
 ```
 public class IShape extends TetrisBlock
@@ -134,7 +134,7 @@ public class IShape extends TetrisBlock
 
 ✅ <b>Exception Handling</b><br>
 Line 35-40<br> 
-GameThread.java<br>
+(Tetris/src/main/java/fp/tetris/GameThread.java)<br>
 
 ```
 {    
@@ -152,7 +152,7 @@ GameThread.java<br>
   
 ✅<b>Collection</b><br>
 Line 9<br>
-GameArea.java<br>
+Tetris/src/main/java/fp/tetris/GameArea.java<br>
 
 ```
 public class GameArea extends JPanel
@@ -169,7 +169,7 @@ public class GameArea extends JPanel
 
 ✅ <b>Input Output</b><br>
 Line 37, Line 43<br>
-GameForm.Form<br>
+Tetris/src/main/java/fp/tetris/GameForm.form<br>
 
 ```
           @Override
