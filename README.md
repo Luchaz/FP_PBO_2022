@@ -5,32 +5,32 @@ NRP  : 5025211223
 
 Pada final project saya akan membuat game tetris. Tetris merupakan sebutan bagi permainan yang ada block puzzle runtuh dan pada game ini mempunyai beberapa bentuk yang berbeda, masing masing bentuk nanti akan berjatuhan pada papan game. Jadi kita mengatur agar mereka bisa masuk dengan pola yang benar.
 
-Casting/Conversion✅
+✅<b>Casting/Conversion</b><b>
 Line 267-277 GameArea.java
 
-Constructor✅
+✅ Constructor
 119-124 GameArea.java
 
-Overloading✅
+✅ Overloading
 line 6-21 TetrisBlock.java
 
-Overriding✅
+✅ Overriding
 line 6-21 TetrisBlock.java
 
-Encapsulation✅
+✅ Encapsulation
 line 59, line 61 TetrisBlock.java
 
-Inheritance✅
+✅ Inheritance
 line 6 GameThread.java
 
 Polymorphism
 
 ArrayList
 
-Exception Handling✅
+✅ Exception Handling
 line 35-40 GameThread.java
 
-GUI✅
+✅ GUI
 
 Interface
 
@@ -40,5 +40,5 @@ Generics
 
 Collection
 
-Input Output✅
+✅ Input Output
 line 37, line 43  GameForm.Form
