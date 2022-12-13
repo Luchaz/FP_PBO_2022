@@ -10,6 +10,10 @@
 <br>
 <p>  
 Pada final project saya akan membuat game tetris. Tetris merupakan sebutan bagi permainan yang ada block puzzle runtuh dan pada game ini mempunyai beberapa bentuk yang berbeda, masing masing bentuk nanti akan berjatuhan pada papan game. Jadi kita mengatur agar mereka bisa masuk dengan pola yang benar, semakin besar score yang kita dapat makan semakin cepat block bergerak dan level yang semkain tinggi. Hasil permainan kita akan tersimpan di leaderboard saat gameover kita memasukan nama untuk ditampilkan di leaderboard.
+
+
+Link Referensi : https://www.youtube.com/watch?v=dgVh6S8X25k<br>
+Link Rekaman : https://youtu.be/b4sQ7hBiTTE<br>
   
 <h3>Daftar implementasi OOP</h3>
 </p>
@@ -47,9 +51,6 @@ GameThread.java<br>
 Line 6<br>
 IShape.java<br>
 <br>
-  
-<b>ArrayList</b><br>
-<br>
 
 ✅ <b>Exception Handling</b><br>
 Line 35-40<br> 
@@ -57,6 +58,9 @@ GameThread.java<br>
 <br>
 
 ✅ <b>GUI</b><br>
+<br>
+  
+<b>ArrayList</b><br>
 <br>
 
 <b>Interface</b><br>
@@ -76,6 +80,4 @@ Line 37, Line 43<br>
 GameForm.Form<br>
 <br>
 
-Link Referensi : https://www.youtube.com/watch?v=dgVh6S8X25k<br>
-Link Rekaman : https://youtu.be/b4sQ7hBiTTE
 <p>
