@@ -43,7 +43,9 @@ Line 6<br>
 GameThread.java<br>
 <br>
 
-<b>Polymorphism</b><br>
+✅<b>Polymorphism</b><br>
+Line 6<br>
+IShape.java<br>
 <br>
   
 <b>ArrayList</b><br>
@@ -74,4 +76,6 @@ Line 37, Line 43<br>
 GameForm.Form<br>
 <br>
 
+Link Referensi : https://www.youtube.com/watch?v=dgVh6S8X25k<br>
+Link Rekaman : https://youtu.be/b4sQ7hBiTTE
 <p>
