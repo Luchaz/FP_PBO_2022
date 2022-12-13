@@ -72,7 +72,9 @@ GameThread.java<br>
 <b>Generics</b><br>
 <br>
   
-<b>Collection</b><br>
+✅<b>Collection</b><br>
+Line 9<br>
+GameArea.java<br>
 <br>
   
 ✅ <b>Input Output</b><br>
