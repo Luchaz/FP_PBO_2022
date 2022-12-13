@@ -1,44 +1,77 @@
-# FP_PBO_2022
-## Final Project Pemograman Berorientasi Objek B 
-Nama : Muhammad Naufal Fawwaz Ramadhan
-NRP  : 5025211223
+<h1>Tetris Game</h1>
 
-Pada final project saya akan membuat game tetris. Tetris merupakan sebutan bagi permainan yang ada block puzzle runtuh dan pada game ini mempunyai beberapa bentuk yang berbeda, masing masing bentuk nanti akan berjatuhan pada papan game. Jadi kita mengatur agar mereka bisa masuk dengan pola yang benar.
+<h3> About </h3>
+<p> Ini adalah Game Tetris untuk Final Project Pemograman Berorientasi Objek.</p>  
 
-✅<b>Casting/Conversion</b><b>
-Line 267-277 GameArea.java
+<h3>
+• Nama : Muhammad Naufal Fawwaz Ramadhan<br>
+• NRP : 5025211223<br>
+</h3>
+<br>
+<p>  
+Pada final project saya akan membuat game tetris. Tetris merupakan sebutan bagi permainan yang ada block puzzle runtuh dan pada game ini mempunyai beberapa bentuk yang berbeda, masing masing bentuk nanti akan berjatuhan pada papan game. Jadi kita mengatur agar mereka bisa masuk dengan pola yang benar, semakin besar score yang kita dapat makan semakin cepat block bergerak dan level yang semkain tinggi. Hasil permainan kita akan tersimpan di leaderboard saat gameover kita memasukan nama untuk ditampilkan di leaderboard.
+  
+<h3>Daftar implementasi OOP</h3>
+</p>
+✅ <b>Casting/Conversion</b><br>
+    Line 267-277 <br>
+    GameArea.java<br>
+    <br>
 
-✅ Constructor
-119-124 GameArea.java
+✅ <b>Constructor</b><br>
+Line 119-124 <br> 
+GameArea.java<br>
+<br>
 
-✅ Overloading
-line 6-21 TetrisBlock.java
+✅ <b>Overloading</b><br>
+Line 6-21 <br>
+TetrisBlock.java<br>
+<br>
+  
+✅ <b>Overriding</b><br>
+Line 6-21<br> 
+TetrisBlock.java<br>
+<br>
 
-✅ Overriding
-line 6-21 TetrisBlock.java
+✅ <b>Encapsulation</b><br>
+Line 59, Line 61<br> 
+TetrisBlock.java<br>
+<br>
 
-✅ Encapsulation
-line 59, line 61 TetrisBlock.java
+  ✅ <b>Inheritance</b><br>
+Line 6<br> 
+GameThread.java<br>
+<br>
 
-✅ Inheritance
-line 6 GameThread.java
+<b>Polymorphism</b><br>
+<br>
+  
+<b>ArrayList</b><br>
+<br>
 
-Polymorphism
+✅ <b>Exception Handling</b><br>
+Line 35-40<br> 
+GameThread.java<br>
+<br>
 
-ArrayList
+✅ <b>GUI</b><br>
+<br>
 
-✅ Exception Handling
-line 35-40 GameThread.java
+<b>Interface</b><br>
+<br>
+  
+<b>Abstract Class</b><br>
+<br>
+  
+<b>Generics</b><br>
+<br>
+  
+<b>Collection</b><br>
+<br>
+  
+✅ <b>Input Output</b><br>
+Line 37, Line 43<br>
+GameForm.Form<br>
+<br>
 
-✅ GUI
-
-Interface
-
-Abstract Class
-
-Generics
-
-Collection
-
-✅ Input Output
-line 37, line 43  GameForm.Form
+<p>
